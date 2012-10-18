@@ -22,8 +22,6 @@ public class FizzBuzzActivity extends Activity {
 		buzzMP = MediaPlayer.create(FizzBuzzActivity.this, R.raw.buzz);
 		new Thread(mUpdate).start();
 	}
-	
-	
 
 	private Runnable mUpdate = new Runnable() {
 		public void run() {
